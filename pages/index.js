@@ -5,10 +5,14 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Button from "@material-ui/core/Button";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className={s.base}>
+      <Head>
+        <title>Tanda tangan Elektronik LPPNTB</title>
+      </Head>
       <div className={s.container}>
         <div className={s.wrap}>
           <div className={s.logo}>E-Sign</div>
